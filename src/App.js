@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import star from "./images/icon-star.svg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="wrapper">
+      <img src={star} alt="" />
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!</p>
+
+      <ul>
+        <li><button>1</button></li>
+        <li><button>2</button></li>
+        <li><button>3</button></li>
+        <li><button>4</button></li>
+        <li><button>5</button></li>
+      </ul>
+
+      <div>
+        <but className="btn-rating">Submit</but>
+      </div>
     </div>
+    </>
   );
 }
 
